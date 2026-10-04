@@ -17,6 +17,10 @@ build/
 out/
 playwright-report
 test-results
+.playwright-mcp/
+
+# Vite writes these while loading a config file
+*.timestamp-*.mjs
 
 # Environment variables
 .env
